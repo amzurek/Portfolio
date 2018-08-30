@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>am.zurek</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+</head>
+<body>
+<header class="contentHead">
+
+    <div id="sidebar">
+        <div id="logo">
+            <h1>am.zurek</h1>
+        </div>
+
+            <ul>
+                <li><a href="#">
+                     <span class="dots">.</span>About</a></li>
+                <li><a id="modalBtnSkills" class="buttonSkills">
+                    <span class="dots">.</span>Skills</a>
+
+                     <div id="simpleModalSkills" class="modalSkills">
+                         <div class="modal-content">
+                            <div class="modal-header">
+                                <span class="closeBtnSkills">&times;</span>
+                                <h2>Always progress and move forward</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>HTML</p>
+                                <p>CSS</p>
+                                <p>JAVASCRIPT</p>
+                                <p>WORDPRESS</p>
+                                <p>SASS, RWD, GULP</p>
+                            </div>
+                            <div class="modal-footer">
+                                <h3><span class="dots">.</span>let<span class="dots">'</span>s work together<span class="dots">!</span></h3>
+                            </div>
+                         </div>
+                     </div>
+                </li>
+
+                <li><a href="#main">
+                    <span class="dots">.</span>Portfolio</a></li>
+
+                <li><a id="modalBtn" class="button">
+                    <span class="dots">.</span>Contact</a>
+
+                    <div id="simpleModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span class="closeBtn">&times;</span>
+                                <h2>Feel free to contact</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>arkadiuszmarekzurek@gmail.com</p>
+                                <div class="links">
+                                    <a href="https://web.facebook.com/arkadiusz.zurek.3"><span class="dots">.</span>facebook</a>
+                                    <a href="https://github.com/amzurek"><span class="dots">.</span>github</a>
+                                    <a href="https://www.linkedin.com/in/arkadiusz-żurek-778aa94a/"><span class="dots">.</span>linkedin</a>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <h3><span class="dots">.</span>let<span class="dots">'</span>s work together<span class="dots">!</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <button id="sidebar-btn" class="hamburger hamburger--arrowalt" type="button" onclick="toggleMenu()">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+	            </span>
+            </button>
+    </div>
+
+    <div class="myName">
+        <h1>Hello<span class="dots">,</span> I<span class="dots">'</span>m Arek<span class="dots">!</span>
+        </h1>
+            <h2>Pharmacist <span class="dots">&</span> Front End Developer</h2>
+                <div id="specification">
+                   <p>I love looking for solutions to the problems surrounding us and make mistakes while searching or develop suprising<span class="dots">,</span>
+                       that won't let me sleep at night<span class="dots">.</span></p>
+                   <p>At the moment I am working in Pharmacy and Medical Center<span class="dots">.</span> Programming is the future and the key of better and healthier life<span class="dots">.</span></p>
+                   <p>Crossfit and ultra trail running are my passion and way to find inspiration<span class="dots">.</span> So<span class="dots">,</span> let<span class="dots">'</span>s code together<span class="dots">.</span>
+                       Want to have a coffee<span class="dots">?</span> Great<span class="dots">!</span></p>
+                       <div>
+                           <a id="baseContact" class="frontContact" onclick="openModal()"><span class="dots">.</span>Contact</a>
+                       </div>
+                </div>
+    </div>
+
+
+
+</header>
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="js/file.js"></script>
+</body>
+
+</html>
